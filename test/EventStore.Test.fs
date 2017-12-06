@@ -4,7 +4,6 @@ open AgentHelper
 open EventStore
 open Fable.Import.Jest
 open Matchers
-open Fable.PowerPack
 
 test "running the event store" <| fun () ->
   let inMemoryEventStore = createInMemoryEventStore<string,string> "This is a version error"
